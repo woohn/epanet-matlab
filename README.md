@@ -18,6 +18,7 @@ Following files have to be in the search path: %(easiest is to copy them in the 
 - epanetmsx.dll
 - epanetmsx.h
 
+
 Also added to the path should be locations for the included directories:
 - EPANET toolkit matlab wrappers
 - MSX matlab wrappers
@@ -76,6 +77,10 @@ input of an object must be called as can be observed in the example below:
     Alternatively, numeric codes can be used as indicated in the help files.
 
 - index numbers and id (names) of nodes, links, species etc. do not necessarily coincide.
+ 
+For Mac Users:
+--------------
+- For whom has an error with "-bash: gcc-4.2: command not found" in Mac environment after setting up environment. Recent versions of Matlab in Mac (2011a,b or 2012a,b) need to be patched (http://www.mathworks.com/support/solutions/en/data/1-FR6LXJ/) since Xcode 4.2 - 4.5 has compatibility issue with Matlab. 
 
 Authors & License:
 --------
